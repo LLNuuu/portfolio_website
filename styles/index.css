@@ -1,0 +1,109 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
+header {
+   background-color: white;
+   width: 100%;
+   padding: 0 2rem;
+
+
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+h1 {
+   font-size: 1.5rem;
+}
+
+h2 {
+   font-size: 1.2rem;
+   line-height: 2rem;
+
+}
+
+p {
+   line-height: 1.5rem;
+}
+
+nav ul {
+   display: flex;
+   list-style: none;
+}
+
+nav ul li {
+   margin-left: 2rem;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+main {
+   margin-top: 5rem;
+   padding: 0 5rem;
+
+   display: flex;
+   flex-direction: column;
+}
+
+section {
+   margin-bottom: 2rem;
+}
+
+.hero {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.img-container {
+   overflow: hidden;
+   width: 100%;
+   max-width: 400px;
+   margin-left: 2rem;
+   border-radius: 5% 5%;
+}
+
+#photo {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+footer {
+   width: 100%;
+   padding: 0 5rem;
+}
+
+.fa-solid,
+.fa-brands {
+   font-size: 2.5rem;
+}
+
+.skills-container {
+   padding-top: 1.2rem;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.contact-container {
+   padding-top: 1.2rem;
+   width: 20%;
+   display: flex;
+   justify-content: space-between;
+
+}
